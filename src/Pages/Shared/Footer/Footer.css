@@ -1,0 +1,26 @@
+.footer {
+  background: #222;
+  color: aliceblue;
+}
+.footer_Link {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: aliceblue;
+}
+.footer_Link:hover {
+  color: #1c58ef;
+}
+.bg-Gray {
+  background: #1f1f1f !important;
+}
+.border_Radius {
+  overflow: hidden;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.TopFooter {
+  background: #2a2a2a;
+}

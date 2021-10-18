@@ -1,0 +1,11 @@
+.headerLogo {
+  width: 50px;
+}
+ul li a {
+  font-size: 18px;
+  font-weight: 600;
+}
+ul li a:hover,
+ul li a.active {
+  color: #4a79f1 !important;
+}
