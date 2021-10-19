@@ -14,7 +14,7 @@ const Welcome = () => {
             <h1 className="mt-4">
               Welcome To <span className="text-Blue">Health</span>
               <span className="text-Blue fs-4 fw-bold">
-                <i class="fas fa-plus"></i>
+                <i className="fas fa-plus"></i>
               </span>{" "}
               . Central Hospital
             </h1>
@@ -30,38 +30,38 @@ const Welcome = () => {
             <div className="row mt-5">
               <div className="wlcCart d-flex  align-items-center p-4 my-2">
                 <div className="col-lg-10  col-md-10 col-10 d-flex align-items-center">
-                  <i class="far fa-calendar-minus  fs-4"></i>
+                  <i className="far fa-calendar-minus  fs-4"></i>
                   <h4 className="ms-3 me-5">Request Appointment</h4>
                 </div>
                 <div className="col-lg-2  col-md-2 col-2">
-                  <i class="fas fa-angle-right ms-4 fw-bold fs-4"></i>
+                  <i className="fas fa-angle-right ms-4 fw-bold fs-4"></i>
                 </div>
               </div>
               <div className="wlcCart d-flex  align-items-center p-4 my-2">
                 <div className="col-lg-10  col-md-10 col-10 d-flex align-items-center">
-                  <i class="fas fa-user-md fs-4"></i>
+                  <i className="fas fa-user-md fs-4"></i>
                   <h4 className="ms-3 me-5">Finds Doctors</h4>
                 </div>
                 <div className="col-lg-2  col-md-2 col-2">
-                  <i class="fas fa-angle-right ms-4 fw-bold fs-4"></i>
+                  <i className="fas fa-angle-right ms-4 fw-bold fs-4"></i>
                 </div>
               </div>
               <div className="wlcCart d-flex  align-items-center p-4 my-2">
                 <div className="col-lg-10  col-md-10 col-10 d-flex align-items-center">
-                  <i class="fas fa-map-marker-alt  fs-4"></i>
+                  <i className="fas fa-map-marker-alt  fs-4"></i>
                   <h4 className="ms-3 me-5">Find Location</h4>
                 </div>
                 <div className="col-lg-2  col-md-2 col-2">
-                  <i class="fas fa-angle-right ms-4 fw-bold fs-4"></i>
+                  <i className="fas fa-angle-right ms-4 fw-bold fs-4"></i>
                 </div>
               </div>
               <div className="wlcCart d-flex  align-items-center p-4 my-2">
                 <div className="col-lg-10 col-md-10 col-10 d-flex align-items-center">
-                  <i class="far fa-calendar-minus  fs-4"></i>
+                  <i className="far fa-calendar-minus  fs-4"></i>
                   <h4 className="ms-3 me-5">Request Appointment</h4>
                 </div>
                 <div className="col-lg-2 col-md-2 col-2">
-                  <i class="fas fa-angle-right ms-4 fw-bold fs-4"></i>
+                  <i className="fas fa-angle-right ms-4 fw-bold fs-4"></i>
                 </div>
               </div>
             </div>

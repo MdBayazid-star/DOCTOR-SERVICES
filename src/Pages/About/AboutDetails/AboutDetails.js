@@ -21,19 +21,19 @@ const Aboutdetails = () => {
               </p>
               <ul className="aboutCheck">
                 <li className="d-flex">
-                  <i class="fas fa-check text-Blue me-3"></i>
+                  <i className="fas fa-check text-Blue me-3"></i>
                   <p>Qualified Staff of Doctors</p>
                 </li>
                 <li className="d-flex">
-                  <i class="fas fa-check text-Blue me-3"></i>
+                  <i className="fas fa-check text-Blue me-3"></i>
                   <p>Feel like you are at Home Services</p>
                 </li>
                 <li className="d-flex">
-                  <i class="fas fa-check text-Blue me-3"></i>
+                  <i className="fas fa-check text-Blue me-3"></i>
                   <p>24x7 Emergency Services</p>
                 </li>
                 <li className="d-flex">
-                  <i class="fas fa-check text-Blue me-3"></i>
+                  <i className="fas fa-check text-Blue me-3"></i>
                   <p>Easy and Affordable Billing</p>
                 </li>
               </ul>

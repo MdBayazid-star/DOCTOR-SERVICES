@@ -54,21 +54,21 @@ const LoginFrom = () => {
             <div className="w-75 md-w-85 mx-auto my-5">
               <form onSubmit={handleRegistration} className="">
                 {/* <div className="mb-3"> */}
-                <div class="form-floating mb-3">
+                <div className="form-floating mb-3">
                   <input
                     onBlur={hanldeEmail}
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="floatingInput"
                     placeholder="name@example.com"
                   />
                   <label for="floatingInput">Email address</label>
                 </div>
-                <div class="form-floating mb-3">
+                <div className="form-floating mb-3">
                   <input
                     onBlur={hanldePassword}
                     type="password"
-                    class="form-control"
+                    className="form-control"
                     id="floatingPassword"
                     placeholder="Password"
                   />

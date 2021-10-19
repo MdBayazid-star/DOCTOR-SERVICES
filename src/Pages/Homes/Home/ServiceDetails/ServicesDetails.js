@@ -42,16 +42,16 @@ const ServicesDetails = () => {
                 <h5 className="my-4">
                   Social:{" "}
                   <span>
-                    <i class="fab fa-facebook-f text-Blue mx-3 smallFont"></i>
-                    <i class="fab fa-instagram text-Blue mx-3 smallFont"></i>
-                    <i class="fab fa-twitter text-Blue mx-3 smallFont"></i>
-                    <i class="fab fa-linkedin-in text-Blue mx-3 smallFont"></i>
+                    <i className="fab fa-facebook-f text-Blue mx-3 smallFont"></i>
+                    <i className="fab fa-instagram text-Blue mx-3 smallFont"></i>
+                    <i className="fab fa-twitter text-Blue mx-3 smallFont"></i>
+                    <i className="fab fa-linkedin-in text-Blue mx-3 smallFont"></i>
                   </span>
                 </h5>
               </div>
               <div className="p-4 bgBlue mt-5 d-flex">
                 <div className="imgIcon me-4">
-                  <i class="fas fa-headset"></i>
+                  <i className="fas fa-headset"></i>
                 </div>
                 <div className="text-light">
                   <h3>Emergency Cases</h3>

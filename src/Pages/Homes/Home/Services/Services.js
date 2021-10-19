@@ -18,7 +18,7 @@ const Services = () => {
           <hr className="hr" />
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+      <div className="row row-cols-1 row-cols-md-3 g-4 my-5">
         {services.map((service) => (
           <Cart service={service} key={service.key}></Cart>
         ))}

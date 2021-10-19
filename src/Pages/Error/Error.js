@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import error from "./../../Images/404.png";
+import ErrorBanner from "./ErrorBanner/ErrorBanner";
 
 const Error = () => {
   return (
     <div>
+      <ErrorBanner></ErrorBanner>
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
