@@ -46,27 +46,27 @@ const Footer = () => {
               <div>
                 <h3 className="mb-5 border_b">Departments</h3>
               </div>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3 ">
                   <i className="fas fa-arrow-right"></i> Who We Are
                 </li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">
                   <i className="fas fa-arrow-right"></i> Our Mission
                 </li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">
                   <i className="fas fa-arrow-right"></i> Awards
                 </li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">
                   <i className="fas fa-arrow-right"></i> Experience
                 </li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">
                   <i className="fas fa-arrow-right"></i> Success Story
                 </li>
@@ -76,23 +76,23 @@ const Footer = () => {
               <div>
                 <h3 className="mb-5">Quick Links</h3>
               </div>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">Home</li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">About</li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">News & Blog</li>
               </Link>
 
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">Doctors</li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">Blog</li>
               </Link>
-              <Link>
+              <Link to="">
                 <li className="footer_Link my-3">Contact</li>
               </Link>
             </div>

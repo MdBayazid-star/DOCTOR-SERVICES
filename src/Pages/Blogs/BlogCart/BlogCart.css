@@ -1,0 +1,29 @@
+.cartTextHover {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.cart {
+  overflow: hidden;
+  cursor: pointer;
+  transition: all ease-in-out;
+  -webkit-transition: all ease-in-out;
+  -moz-transition: all ease-in-out;
+  -ms-transition: all ease-in-out;
+  -o-transition: all ease-in-out;
+}
+.cart:hover .cartTextHover {
+  color: #4a79f1;
+}
+/* .cart:hover img {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+} */
+.liked {
+  cursor: pointer;
+}

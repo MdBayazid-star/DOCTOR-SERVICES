@@ -1,0 +1,74 @@
+[
+  {
+    "key": "1",
+    "name": "short-term hospitalization.",
+    "img": "https://i.ibb.co/mcvTXmD/pexels-gustavo-fring-3985299.jpg",
+    "worker": "92",
+    "price": "250$",
+    "description": "Short-term inpatient hospitalization may be the right choice to help your loved one in an emergency. Short-term inpatient hospitalization is best for clients who are at immediate risk of harming themselves or others or who are experiencing severe psychosis. Because the goal of short-term inpatient hospitalization is to stabilize the client, not cure him/her, staff will focus on making a diagnosis and forming a longer-term treatment plan. Staff will also administer medical care, support, and supervision during the client’s stay. The hospitalization may also include therapeutic activities to help the client stabilize."
+  },
+  {
+    "key": "2",
+    "name": "emergency room services.",
+    "img": "https://i.ibb.co/3YRTKch/pexels-negative-space-48604.jpg",
+    "worker": "20",
+    "price": "150$",
+    "description": "At Emergency Hospital Systems, our emergency rooms are open 24/7/365, so we’re available when you need us most. We realize emergencies can’t wait, whether that’s a deep cut, broken bone, or medication overdose. When you come to one of the EHS emergency rooms, you’ll be seen by a caring and compassionate staff member. Depending on the severity of your emergency, we might show you into an exam room immediately or triage you with others. In all cases, however, we are generally able to see patients quickly, unlike the long waits experienced by patients at some of the large downtown hospitals."
+  },
+  {
+    "key": "3",
+    "name": "general and specialty surgical services.",
+    "img": "https://i.ibb.co/p4SXptJ/pexels-linkedin-sales-navigator-2182979.jpg",
+    "worker": "200",
+    "price": "180$",
+    "description": "The American College of Surgeons recognizes 14 surgical specialties: cardiothoracic surgery, colon and rectal surgery, general surgery, gynecology and obstetrics, gynecologic oncology, neurological surgery, ophthalmic surgery, oral and maxillofacial surgery, orthopaedic surgery, otorhinolaryngology, pediatric surgery, plastic and maxillofacial surgery, urology, and vascular surgery. The information that follows presents information on the various surgical specialties. The material was adapted from definitions put forth by the nationally recognized authority on the topic, the American Board of Medical Specialties (ABMS), and its approved surgical specialty boards."
+  },
+  {
+    "key": "4",
+    "name": "x ray/radiology services.",
+    "img": "https://i.ibb.co/51mGqcV/pexels-linkedin-sales-navigator-2182972.jpg",
+    "worker": "50",
+    "price": "150$",
+    "description": "An x-ray, which is short for x-radiation, is a type of imaging test that has been utilized for years. With this technology, doctors can see your bones, muscle and more without having to make an incision. This helps them diagnose, treat and monitor a number of different medical conditions. Because the test uses a form of electromagnetic radiation, there are some risks involved in the procedure. However, the benefits far outweigh these potential risks."
+  },
+  {
+    "key": "5",
+    "name": "laboratory services.",
+    "img": "https://i.ibb.co/m6c9JPV/pexels-pixabay-40568.jpg",
+    "worker": "30",
+    "price": "150$",
+    "description": "SCHOTT has over 40 years of experience in analytics, combining an expert team with the latest technology for precise results. From drug compatibility and extractables and leachables studies to system performance and mechanical stability testing, we offer insight and support for all packaging challenges."
+  },
+  {
+    "key": "6",
+    "name": "blood services.",
+    "img": "https://i.ibb.co/wKSjLvP/pexels-evg-culture-1170979.jpg",
+    "worker": "10",
+    "price": "150$",
+    "description": "You may not be eligible to donate if your health and/or the safety of Canada’s blood and plasma supply are at risk. Detailed below are common reasons why we defer some donors. If you have questions or are unsure about your eligibility, please call to speak with one of our trained health professionals at 1 888 2 DONATE (1-888-236-6283)."
+  },
+  {
+    "key": "7",
+    "name": "Obstetrical Services",
+    "img": "https://i.ibb.co/FHT1P8g/pexels-karolina-grabowska-4021775.jpg",
+    "worker": "80",
+    "price": "150$",
+    "description": "The Obstetrics Department provides family-centered maternity service in three private birthing suites, where mothers experience labor, delivery, recovery, and postpartum care.  During labor and delivery, patients’ physicians monitor their progress and direct their care.  In-house anesthesia services are available as needed for epidurals and cesarean births."
+  },
+  {
+    "key": "8",
+    "name": "Anesthesiology Services",
+    "img": "https://i.ibb.co/PZLXTYD/pexels-thirdman-5327921.jpg",
+    "worker": "55",
+    "price": "150$",
+    "description": "Anesthesiology service is the least visible service in a hospital, but as important as others. Apart from the high professional knowledge and skill of the anesthesiologists, the service should conform to all the standing policies and procedures.There must be a preanaesthetic physical check­up including relevant urine and blood examinations.Safely in operation theatres is normally assigned to anesthesiology service. Standing order on safety regulations must be available and enforced. Deaths indirectly attributable to anesthesia should not exceed one death in 5000 anesthesia’s."
+  },
+  {
+    "key": "9",
+    "name": "Laboratory Services",
+    "img": "https://i.ibb.co/F7fYknS/pexels-pixabay-236380.jpg",
+    "worker": "68",
+    "price": "150$",
+    "description": "Services appropriate to the need of the hospital should be available, conducted and supervised by competent technicians and pathologists respectively, with appropriate system of maintenance of records of tests and standing orders and procedures. The calibration of equipment should be carried out regularly.Evaluation of procedures pertaining to sterile supplies, infection control and functioning of the “infection control committee” to monitor the above"
+  }
+]

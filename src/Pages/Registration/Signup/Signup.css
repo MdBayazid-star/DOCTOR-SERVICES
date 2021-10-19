@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+  .md-w-75 {
+    width: 100% !important;
+  }
+  .md-w-85 {
+    width: 85% !important;
+  }
+  .smMe {
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
+}

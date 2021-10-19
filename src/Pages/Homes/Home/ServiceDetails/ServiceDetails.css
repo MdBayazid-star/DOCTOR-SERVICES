@@ -1,0 +1,39 @@
+.servicesDetails {
+  background: #f1f7fa;
+}
+.serDeImg {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.bgWhite {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.smallFont {
+  font-size: 16px;
+  cursor: pointer;
+}
+.bg-LightBlue {
+  background: #f1f7fa;
+}
+.imgIcon {
+  font-size: 50px;
+  color: #fff;
+}
+.bgBlue {
+  background: #4a79f1;
+  box-shadow: 0 5px 20px #4a79f1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

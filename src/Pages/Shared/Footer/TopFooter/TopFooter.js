@@ -10,16 +10,16 @@ const TopFooter = () => {
           <div className="col-lg-4 d-flex align-items-center text-light">
             <h2 className="text-light">Follow Us</h2>
             <Link to="/">
-              <i class="fab fa-facebook-f ms-3 me-3"></i>
+              <i className="fab fa-facebook-f ms-3 me-3"></i>
             </Link>
             <Link to="/">
-              <i class="fab fa-instagram me-3"></i>
+              <i className="fab fa-instagram me-3"></i>
             </Link>
             <Link to="/">
-              <i class="fab fa-twitter me-3"></i>
+              <i className="fab fa-twitter me-3"></i>
             </Link>
             <Link to="/">
-              <i class="fab fa-linkedin-in me-3"></i>
+              <i className="fab fa-linkedin-in me-3"></i>
             </Link>
           </div>
           <div className="col-lg-4">
@@ -29,16 +29,16 @@ const TopFooter = () => {
           </div>
           <div className="col-lg-4">
             <div className=" text-center bg-Gray border_Radius">
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="text"
-                  class="form-control border-0 bg-Gray text-light ps-3"
+                  className="form-control border-0 bg-Gray text-light ps-3"
                   placeholder="Email Address"
                   aria-label="Recipient's username"
                   aria-describedby="basic-addon2"
                 />
                 <span
-                  class="input-group-text p-0 border-0 bg-none btn btns btn_Blue border_Radius"
+                  className="input-group-text p-0 border-0 bg-none btn btns btn_Blue border_Radius"
                   id="basic-addon2"
                 >
                   SUBSCRIBE

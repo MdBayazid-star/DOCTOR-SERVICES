@@ -2,8 +2,11 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 import logo from "./../../../Images/logo.png";
-
+import useAuth from "../../../Hooks/useAuth";
+import users from "./../../../Images/user2.png";
 const Header = () => {
+  const { logOut, user } = useAuth();
+  console.log(user);
   return (
     <div className="shadow">
       <div className="container">
@@ -16,7 +19,7 @@ const Header = () => {
               <img className="headerLogo" src={logo} alt="" />{" "}
               <div>
                 <span className="fw-bold normal_Fonts text-Blue">
-                  Health<i class="fas fa-plus"></i>...
+                  Health<i className="fas fa-plus"></i>...
                 </span>
                 <p className="smallest_Fonts text-Gray fw-Samibold">
                   CENTRAL HOSPITAL
@@ -65,6 +68,17 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    to="/blog"
+                    activeStyle={{
+                      color: "#4a79f1",
+                    }}
+                    className="nav-link"
+                  >
+                    Blogs
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
                     to="/doctors"
                     activeStyle={{
                       color: "#4a79f1",
@@ -74,28 +88,7 @@ const Header = () => {
                     Doctors
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="/news"
-                    activeStyle={{
-                      color: "#4a79f1",
-                    }}
-                    className="nav-link"
-                  >
-                    News & Blogs
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="/department"
-                    activeStyle={{
-                      color: "#4a79f1",
-                    }}
-                    className="nav-link"
-                  >
-                    Department
-                  </NavLink>
-                </li>
+
                 <li className="nav-item">
                   <NavLink
                     to="/contact"
@@ -109,12 +102,38 @@ const Header = () => {
                 </li>
               </ul>
               <div className="">
-                <Link to="login">
-                  <button className="btn btns btn_Blue me-3">Log In</button>
+                <Link to="/signup">
+                  <button className="btn btns btn_Blue  me-3">
+                    Get Started
+                  </button>
                 </Link>
-                <Link to="logout">
-                  <button className="btn btns btn_Blue">Register</button>
-                </Link>
+                {user.email ? (
+                  <Link to="/login">
+                    <button onClick={logOut} className="btn btns btn_Blue">
+                      Log Out
+                    </button>
+                  </Link>
+                ) : (
+                  <Link to="/signup">
+                    <button className="btn btns btn_Blue me-3">Sing Up</button>
+                  </Link>
+                )}
+                {user.photoURL ? (
+                  <span>
+                    <img className="userImg ms-3" src={user.photoURL} alt="" />
+                  </span>
+                ) : (
+                  <span>
+                    <img className="userImg ms-3 p-1" src={users} alt="" />
+                  </span>
+                )}
+                {user.displayName ? (
+                  <span className="text-Blue fw-bold ms-2">
+                    {user.displayName}
+                  </span>
+                ) : (
+                  <span></span>
+                )}
               </div>
             </div>
           </div>
