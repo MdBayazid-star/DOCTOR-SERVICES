@@ -6,7 +6,7 @@ import useAuth from "../../../Hooks/useAuth";
 import users from "./../../../Images/user2.png";
 const Header = () => {
   const { logOut, user } = useAuth();
-  console.log(user);
+  const { displayName, photoURL } = user;
   return (
     <div className="shadow">
       <div className="container">
@@ -117,19 +117,17 @@ const Header = () => {
                     <button className="btn btns btn_Blue me-3">Sing Up</button>
                   </Link>
                 )}
-                {user.photoURL ? (
+                {photoURL ? (
                   <span>
-                    <img className="userImg ms-3" src={user.photoURL} alt="" />
+                    <img className="userImg ms-3" src={photoURL} alt="" />
                   </span>
                 ) : (
                   <span>
                     <img className="userImg ms-3 p-1" src={users} alt="" />
                   </span>
                 )}
-                {user.displayName ? (
-                  <span className="text-Blue fw-bold ms-2">
-                    {user.displayName}
-                  </span>
+                {displayName ? (
+                  <span className="text-Blue fw-bold ms-2">{displayName}</span>
                 ) : (
                   <span></span>
                 )}

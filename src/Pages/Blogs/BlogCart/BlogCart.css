@@ -28,3 +28,6 @@
 .liked {
   cursor: pointer;
 }
+.line {
+  line-height: 25px;
+}

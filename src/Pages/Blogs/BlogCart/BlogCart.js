@@ -14,7 +14,7 @@ const BlogCart = (props) => {
               {date}
             </p>
             <h4 className="card-title cartTextHover">{name}</h4>
-            <p className="card-text text-Gray">{details}</p>
+            <p className="card-text text-Gray line">{details}</p>
           </div>
           <div className="card-footer border-0 bg-body px-4 pb-3">
             <div className="d-flex d-flex justify-content-between">

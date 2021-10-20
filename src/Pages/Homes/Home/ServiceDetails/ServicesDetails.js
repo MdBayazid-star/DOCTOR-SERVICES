@@ -78,16 +78,20 @@ const ServicesDetails = () => {
                     </p>
                     <p>
                       <span className="fw-bold text-Blue fs-5">Price :</span>{" "}
-                      <span className="fs-5">{ExactIteam[0]?.price}</span>
+                      <span className="fs-5 fw-bold text-Gray">
+                        {ExactIteam[0]?.price}
+                      </span>
                     </p>
                     <p>
                       <span className="fw-bold text-Blue fs-5">Workers :</span>{" "}
-                      <span className="fs-5">{ExactIteam[0]?.worker}</span>
+                      <span className="fs-5 fw-bold text-Gray">
+                        {ExactIteam[0]?.worker}
+                      </span>
                     </p>
                   </div>
                 </div>
                 <div className="mt-5">
-                  <h4 className="fw-bold">Appointmnet Schedules:</h4>
+                  <h4 className="fw-bold">Appointment Schedules:</h4>
                   <hr className="hr mb-5" />
                   <div className=" py-3  my-3 bg-LightBlue row">
                     <span className=" fs-5 fw-bold col-lg-4 col-md-4 col-12">
@@ -117,7 +121,7 @@ const ServicesDetails = () => {
                     <div className="col-lg-4 col-md-4 col-12">
                       <div className="m-auto">
                         <button className="btn btns btn_Outline-Blue border_blue my-3">
-                          Appointmnet
+                          Appointment
                         </button>
                       </div>
                     </div>
@@ -137,8 +141,8 @@ const ServicesDetails = () => {
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
                       <div className="m-auto">
-                        <button className="btn btns btn_Outline-Blue border_blue  mt-2">
-                          Appointmnet
+                        <button className="btn btns btn_Outline-Blue border_blue my-2">
+                          Appointment
                         </button>
                       </div>
                     </div>

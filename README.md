@@ -12,7 +12,7 @@ The project Live Link was [Health Plus](https://health-plus-2021.web.app/).
 
 - Your smile is in good hands! The dentists, hygienists, and technicians here at Comfortable Care Dental have the education and experience to meet all your oral health care needs.
 
--We are dedicated to maintaining the highest quality of dental care through on-going training and continuing education in the latest techniques and equipment.
+- We are dedicated to maintaining the highest quality of dental care through on-going training and continuing education in the latest techniques and equipment.
 
 ### `What Do You Do IN This Website ???`
 
