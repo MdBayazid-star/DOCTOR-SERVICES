@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Cart.css";
 
 const Cart = ({ service }) => {
   const { name, img, description, key } = service;
   const details = description.slice(0, 200);
   return (
     <div className="col-lg-4 col-md-6">
-      <div className="card h-100 border-0 shadow">
+      <div className="card h-100 border-0 shadow hover-shadow-lg">
         <img src={img} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title text-uppercase">{name}</h5>

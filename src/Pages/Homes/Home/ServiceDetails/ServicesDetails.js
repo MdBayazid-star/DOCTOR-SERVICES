@@ -89,46 +89,77 @@ const ServicesDetails = () => {
                 <div className="mt-5">
                   <h4 className="fw-bold">Appointmnet Schedules:</h4>
                   <hr className="hr mb-5" />
-                  <div className=" py-3 px-5 my-3 bg-LightBlue">
-                    <span className="me-5 fs-5 fw-bold">Day</span>
-                    <span className="ms-5 fs-5 fw-bold">Time</span>
+                  <div className=" py-3  my-3 bg-LightBlue row">
+                    <span className=" fs-5 fw-bold col-lg-4 col-md-4 col-12">
+                      Day
+                    </span>
+                    <span className=" fs-5 fw-bold col-lg-4 col-md-4 col-12">
+                      Time
+                    </span>
+                    <span className=" fs-5 fw-bold col-lg-4 col-md-4 col-12">
+                      Appointment
+                    </span>
                   </div>
 
-                  <div className="d-flex justify-content-between align-items-center mx-5 my-3">
-                    <div>
-                      <span className="me-5 fs-5 fw-bold">SUN</span>
-                      <span className="ms-5 fs-5 fw-bold">
-                        11:30AM - 12:30PM
-                      </span>
+                  <div className="row d-flex justify-content-between align-items-center  sm-mx-0 my-3">
+                    <div className="col-lg-8 col-md-8 col-12">
+                      <div className="row">
+                        <div className="col-lg-4 col-md-4 col-12 ">
+                          <span className="fs-5 fw-bold">SUN</span>
+                        </div>
+                        <div className="col-lg-8 col-md-8 col-12">
+                          <span className=" fs-5 fw-bold">
+                            11:30AM - 12:30PM
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <button className="btn btns btn_Outline-Blue border_blue">
-                        Appointmnet
-                      </button>
-                    </div>
-                  </div>
-                  <div className="d-flex justify-content-between align-items-center py-2 px-5 my-3 bg-LightBlue">
-                    <div>
-                      <span className="me-5 fs-5 fw-bold">THU</span>
-                      <span className="ms-5 fs-5 fw-bold">
-                        12:00PM - 5:00PM
-                      </span>
-                    </div>
-                    <div>
-                      <button className="btn btns btn_Outline-Blue border_blue">
-                        Appointmnet
-                      </button>
+                    <div className="col-lg-4 col-md-4 col-12">
+                      <div className="m-auto">
+                        <button className="btn btns btn_Outline-Blue border_blue my-3">
+                          Appointmnet
+                        </button>
+                      </div>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-between align-items-center mx-5 my-3 pb-5">
-                    <div>
-                      <span className="me-5 fs-5 fw-bold">SUN</span>
-                      <span className="ms-5 fs-5 fw-bold">2:00PM - 7:30PM</span>
+                  <div className="row d-flex justify-content-between align-items-center  mt-2 bg-LightBlue">
+                    <div className="col-lg-8 col-md-8 col-12">
+                      <div className="row">
+                        <div className="col-lg-4 col-md-4 col-12 ">
+                          <span className="fs-5 fw-bold">THU</span>
+                        </div>
+                        <div className="col-lg-8 col-md-8 col-12">
+                          <span className=" fs-5 fw-bold">
+                            12:00PM - 5:00PM
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <button className="btn btns btn_Outline-Blue border_blue">
-                        Appointmnet
-                      </button>
+                    <div className="col-lg-4 col-md-4 col-12">
+                      <div className="m-auto">
+                        <button className="btn btns btn_Outline-Blue border_blue  mt-2">
+                          Appointmnet
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row d-flex justify-content-between align-items-center  my-3 pb-4">
+                    <div className="col-lg-8 col-md-8 col-12">
+                      <div className="row">
+                        <div className="col-lg-4 col-md-4 col-12 ">
+                          <span className="fs-5 fw-bold">MON</span>
+                        </div>
+                        <div className="col-lg-8 col-md-8 col-12">
+                          <span className=" fs-5 fw-bold">2:00PM - 7:30PM</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-12">
+                      <div className="m-auto">
+                        <button className="btn btns btn_Outline-Blue border_blue  mt-2 ">
+                          Appointmnet
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>

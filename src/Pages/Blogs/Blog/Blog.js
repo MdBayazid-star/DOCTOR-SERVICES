@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import BlogBanner from "../BlogBanner/BlogBanner";
 import BlogCart from "../BlogCart/BlogCart";
-// import BlogCart from "../BlogCart/BlogCart";
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);

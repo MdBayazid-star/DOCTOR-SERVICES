@@ -56,7 +56,6 @@ const Signup = () => {
     }
     registerNewUser(email, password);
   };
-  // Set In Fach
   const registerNewUser = (email, password) => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {

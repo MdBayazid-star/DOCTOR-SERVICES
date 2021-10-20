@@ -2,11 +2,11 @@ import React from "react";
 import "./BlogCart.css";
 
 const BlogCart = (props) => {
-  const { name, img, postBy, comments, date, like } = props.blog;
+  const { name, img, postBy, comments, date, like, details } = props.blog;
   return (
     <>
       <div className="col-lg-4 col-md-6 col-12">
-        <div className="card h-100 border-0 shadow cart">
+        <div className="card h-100 border-0 shadow hoverShadow cart">
           <img src={img} className="card-img-top cartImg" alt="..." />
           <div className="card-body p-4 ">
             <p className=" text-Blue">
@@ -14,11 +14,7 @@ const BlogCart = (props) => {
               {date}
             </p>
             <h4 className="card-title cartTextHover">{name}</h4>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+            <p className="card-text text-Gray">{details}</p>
           </div>
           <div className="card-footer border-0 bg-body px-4 pb-3">
             <div className="d-flex d-flex justify-content-between">

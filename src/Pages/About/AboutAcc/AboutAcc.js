@@ -128,7 +128,7 @@ const AboutAcc = () => {
           </div>
           <div className="col-lg-6">
             <div className="text-center my-5">
-              <img src={aboutBanner3} alt="" />
+              <img className="img-fluid" src={aboutBanner3} alt="" />
             </div>
           </div>
         </div>

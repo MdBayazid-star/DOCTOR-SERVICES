@@ -1,6 +1,7 @@
+import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Spinner } from "react-bootstrap";
-import { Redirect, Route, useHistory } from "react-router";
+import { Redirect, Route } from "react-router";
 import useAuth from "../../../../Hooks/useAuth";
 
 const PrivetRoute = ({ children, ...rest }) => {
@@ -8,10 +9,21 @@ const PrivetRoute = ({ children, ...rest }) => {
   if (isLoading) {
     return (
       <div className="d-flex justify-content-center my-5">
-        <Spinner animation="border" variant="primary" className="me-3" />
-        <Spinner animation="border" variant="primary" className="me-3" />
-        <Spinner animation="border" variant="primary" className="me-3" />
-        <Spinner animation="border" variant="primary" />
+        <Button
+          variant="primary"
+          className="btn btn-primary my-5 px-3"
+          disabled
+        >
+          {" "}
+          <Spinner
+            as="span"
+            animation="grow"
+            size="sm"
+            role="status"
+            aria-hidden="true"
+          />
+          Loading...
+        </Button>
       </div>
     );
   }

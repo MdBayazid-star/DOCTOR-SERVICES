@@ -13,6 +13,7 @@ import PrivateRoute from "./Pages/Registration/Login/PrivateRoute/PrivateRoute";
 import ServicesDetails from "./Pages/Homes/Home/ServiceDetails/ServicesDetails";
 import LoginFrom from "./Pages/Registration/Login/Login/LoginFrom/LoginFrom";
 import Blog from "./Pages/Blogs/Blog/Blog";
+import Contact from "./Pages/Contact/Contact";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/blog">
               <Blog></Blog>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
             <Route path="/Signup">
               <Signup></Signup>

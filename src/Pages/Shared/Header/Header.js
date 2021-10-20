@@ -79,18 +79,6 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/doctors"
-                    activeStyle={{
-                      color: "#4a79f1",
-                    }}
-                    className="nav-link"
-                  >
-                    Doctors
-                  </NavLink>
-                </li>
-
-                <li className="nav-item">
-                  <NavLink
                     to="/contact"
                     activeStyle={{
                       color: "#4a79f1",
@@ -98,6 +86,17 @@ const Header = () => {
                     className="nav-link"
                   >
                     Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    to="/doctors"
+                    activeStyle={{
+                      color: "#4a79f1",
+                    }}
+                    className="nav-link"
+                  >
+                    Doctors
                   </NavLink>
                 </li>
               </ul>

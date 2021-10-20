@@ -37,3 +37,8 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+@media (max-width: 768) {
+  .sm-mx-0 {
+    margin: 0 0 !important;
+  }
+}

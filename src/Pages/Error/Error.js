@@ -10,7 +10,7 @@ const Error = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <img src={error} className="my-5" alt="" />
+            <img src={error} className="my-5 img-fluid" alt="" />
             <h1>OOPS! THAT PAGE CAN’T BE FOUND.</h1>
             <h3 className="text-Gray">
               The page you are looking is not available or has been removed. Try

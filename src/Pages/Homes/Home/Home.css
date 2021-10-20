@@ -77,7 +77,7 @@ hr.hr {
   background: #f6f7f9;
 }
 .helpImg {
-  border: 10px solid #fff;
+  border: 12px solid #fff;
   margin-bottom: 20px;
   width: 250px;
   height: 250px;
@@ -88,7 +88,7 @@ hr.hr {
   -o-border-radius: 50%;
 }
 .helpCart:hover .helpImg {
-  border: 4px solid #4a79f1;
+  border: 5px solid #4a79f1;
 }
 .helpCart:hover h3 {
   color: #4a79f1;

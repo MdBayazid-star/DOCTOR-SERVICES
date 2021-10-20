@@ -7,23 +7,24 @@
 }
 .cart {
   overflow: hidden;
+  border-radius: 10px;
   cursor: pointer;
   transition: all ease-in-out;
   -webkit-transition: all ease-in-out;
   -moz-transition: all ease-in-out;
   -ms-transition: all ease-in-out;
   -o-transition: all ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.cart:hover {
+  box-shadow: 0 5px 20px #4a79f163 !important;
 }
 .cart:hover .cartTextHover {
   color: #4a79f1;
 }
-/* .cart:hover img {
-  transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  -o-transform: scale(1.4);
-} */
 .liked {
   cursor: pointer;
 }

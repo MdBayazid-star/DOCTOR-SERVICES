@@ -29,6 +29,7 @@ const useFirebase = () => {
 
   const githubProvider = new GithubAuthProvider();
   const signInUsingGithub = () => {
+    setIsLoading(true);
     return signInWithPopup(auth, githubProvider).catch((error) => {
       setError(error.message);
     });
@@ -61,6 +62,8 @@ const useFirebase = () => {
   return {
     user,
     isLoading,
+    setIsLoading,
+    setError,
     signInUsingGoogle,
     signInUsingGithub,
     logOut,
